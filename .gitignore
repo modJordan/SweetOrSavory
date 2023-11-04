@@ -1,4 +1,4 @@
-obj/
-bin/
-appSettings.json/
-appSettings.Development.json/
+obj
+bin
+appSettings.json
+appSettings.Development.json
