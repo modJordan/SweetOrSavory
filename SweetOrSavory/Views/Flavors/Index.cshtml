@@ -1,0 +1,18 @@
+@using SweetOrSavory.Models
+
+<br />
+<br />
+<br />
+
+<div class="title">All Flavors</div>
+
+<div class="content_box">
+<div class="statement">Here are all the flavors we have to offer.  Click on a flavor to see more details.</div>
+<br />
+@foreach (var flavor in Model)
+{
+  <li class="bold">@Html.ActionLink($"{treat.Name}{treat.Description}", "Details", new { id = treat.TreatId})</li>
+}
+
+
+</div>
